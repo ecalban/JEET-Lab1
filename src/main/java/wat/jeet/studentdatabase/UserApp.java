@@ -50,7 +50,7 @@ public class UserApp {
     }
 
     public static void main(String[] args) {
-        DatabaseInitializer.initialize();
+       DatabaseInitilazier.initialize();
         UserDAO userDAO = new UserDAO();
         new UserApp(userDAO).launch();
     }
