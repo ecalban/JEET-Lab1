@@ -1,43 +1,25 @@
-JEET.Lab1 - JavaSE GUI & Database Management
-This project was developed based on the "Lab.1: Building a JavaSE application with GUI for database management using H2DB, Maven, JUnit and Git in NetBeans IDE" student guide prepared by Łukasz Laszko. The primary goal of the project is to experience a professional software development lifecycle, including Java SE, Maven, H2DB, and JUnit integration.
+# JEET.Lab1 - JavaSE GUI & Database Management
 
-🎓 Academic Scope
-This laboratory work focuses on the following core competencies:
+This repository contains the first laboratory assignment of the **JavaEE Technologies** course, developed under the guidance of **Łukasz Laszko**. The project focuses on building a professional standalone Java application.
 
+## 🎯 Project Objectives
+* **JavaSE Mastery:** Implementation of core Java 17 features.
+* **Database Design:** Setting up an embedded H2DB database for local storage.
+* **Data Access Layer:** Creating a `UserDAO` class to handle JDBC operations.
+* **GUI Development:** Designing a functional user interface with Java Swing.
 
-Development Environment: Configuring Java 17 (LTS) within the NetBeans IDE.
+## 🏗 Project Structure
+* `DatabaseInitializer.java`: Handles the creation of the database schema.
+* `UserDAO.java`: Implements CRUD (Create, Read) operations using SQL.
+* `UserApp.java`: Main GUI class managing user interactions.
+* `src/test/java`: Contains JUnit 5 tests for verifying DAO logic.
 
+## 🛠 Tech Stack
+* **Runtime:** Java 17 (LTS)
+* **Build:** Maven
+* **Database:** H2 Database (Embedded)
+* **Testing:** JUnit 5
+* **IDE:** NetBeans
 
-Database Integration: Managing database operations using H2DB in "Embedded" mode.
-
-
-Data Access: Handling CRUD operations through the UserDAO class.
-
-
-Test-Driven Development: Verifying the DAO layer using JUnit 5.
-
-🛠 Technical Architecture
-
-Maven: Dependency management via pom.xml.
-
-
-H2 Database: Automated table creation during application startup using DatabaseInitializer.
-
-
-Swing GUI: Providing a visual user interface through the UserApp class.
-
-
-Git: Managing the project lifecycle with add, commit, and push operations.
-
-🚀 Execution Instructions
-
-Database Initialization: The DatabaseInitializer.initialize() method is automatically called when the project's main class is executed.
-
-
-Adding Users: Name and email information can be saved via the form on the GUI.
-
-
-Running Tests: Unit tests can be executed through the UserDAOTest class.
-
-📚 Acknowledgment
-This work is based on the JavaEE Technologies - Lab.1 course notes and student guide authored by Łukasz Laszko.
+## 📚 Academic Context
+This work demonstrates the use of Git (Add, Commit, Push) as part of the software development lifecycle, following the Lab.1 Student Guide requirements.
