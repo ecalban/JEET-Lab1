@@ -1,43 +1,43 @@
 JEET.Lab1 - JavaSE GUI & Database Management
-Bu proje, Łukasz Laszko tarafından hazırlanan "Lab.1: Building a JavaSE application with GUI for database management" kılavuzu kapsamında geliştirilmiştir. Projenin temel amacı; Java SE, Maven, H2DB ve JUnit teknolojilerini kullanarak profesyonel bir yazılım geliştirme döngüsü (Git dahil) deneyimlemektir.
+This project was developed based on the "Lab.1: Building a JavaSE application with GUI for database management using H2DB, Maven, JUnit and Git in NetBeans IDE" student guide prepared by Łukasz Laszko. The primary goal of the project is to experience a professional software development lifecycle, including Java SE, Maven, H2DB, and JUnit integration.
 
-🎓 Akademik Kapsam
-Laboratuvar çalışması şu temel yetkinlikleri hedeflemektedir:
-
-
-Geliştirme Ortamı: NetBeans IDE üzerinde Java 17 (LTS) yapılandırması.
+🎓 Academic Scope
+This laboratory work focuses on the following core competencies:
 
 
-Veritabanı Entegrasyonu: H2DB kullanarak "Embedded" modda veritabanı yönetimi.
+Development Environment: Configuring Java 17 (LTS) within the NetBeans IDE.
 
 
-Veri Erişimi: UserDAO sınıfı üzerinden CRUD işlemlerinin gerçekleştirilmesi.
+Database Integration: Managing database operations using H2DB in "Embedded" mode.
 
 
-Test Odaklı Geliştirme: JUnit 5 kullanarak DAO katmanının doğrulanması.
-
-🛠 Teknik Mimari
-
-Maven: Bağımlılık yönetimi (pom.xml).
+Data Access: Handling CRUD operations through the UserDAO class.
 
 
-H2 Database: Uygulama başlatıldığında DatabaseInitializer aracılığıyla tabloların oluşturulması.
+Test-Driven Development: Verifying the DAO layer using JUnit 5.
+
+🛠 Technical Architecture
+
+Maven: Dependency management via pom.xml.
 
 
-Swing GUI: UserApp sınıfı ile görsel bir kullanıcı arayüzü sunulması.
+H2 Database: Automated table creation during application startup using DatabaseInitializer.
 
 
-Git: Proje yaşam döngüsünün add, commit ve push adımlarıyla yönetilmesi.
-
-🚀 Çalıştırma Talimatları
-
-Veritabanı Başlatma: Proje ana sınıfı çalıştırıldığında DatabaseInitializer.initialize() metodu otomatik olarak çağrılır.
+Swing GUI: Providing a visual user interface through the UserApp class.
 
 
-Kullanıcı Ekleme: GUI üzerindeki form aracılığıyla isim ve e-posta bilgileri kaydedilebilir.
+Git: Managing the project lifecycle with add, commit, and push operations.
+
+🚀 Execution Instructions
+
+Database Initialization: The DatabaseInitializer.initialize() method is automatically called when the project's main class is executed.
 
 
-Testlerin Koşturulması: UserDAOTest sınıfı üzerinden birim testleri uygulanabilir.
+Adding Users: Name and email information can be saved via the form on the GUI.
 
-📚 Atıf
-Bu çalışma, Łukasz Laszko'nun JavaEE Technologies - Lab.1 ders notları ve öğrenci rehberi temel alınarak tamamlanmıştır.
+
+Running Tests: Unit tests can be executed through the UserDAOTest class.
+
+📚 Acknowledgment
+This work is based on the JavaEE Technologies - Lab.1 course notes and student guide authored by Łukasz Laszko.
